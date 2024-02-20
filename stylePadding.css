@@ -11,13 +11,11 @@ h2{
     background: blue;
     height: 200px;
     width: 300px;
-    padding: 20px;
-    text-align: center;
+    padding: 200px;
 }
 
-.box-dua{
-    background: red;
+.box-dua{background: red;
     height: 100px;
+    width: 600px;
     padding-left: 70px;
-    text-align: center;
 }
