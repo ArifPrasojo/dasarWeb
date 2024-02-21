@@ -1,0 +1,57 @@
+html, body{
+    margin: 30px;
+    padding: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.55;
+    padding-bottom: 100px;
+}
+
+/*latihan1*/
+.container-satu{
+    width: 1000px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 0px;
+    box-sizing: border-box;
+    display: flex;
+    
+}
+
+.Sidebar-dua{
+    width: 2000px;
+    margin: 15px;
+}
+
+.sidebar-satu{
+    width: 800px;
+    margin: 10px;
+}
+
+h2{
+    font-style: italic;
+    font-family:'Times New Roman';
+    font-size: 200%;
+    text-shadow: #ddd;
+    text-decoration: underline;
+}
+
+h3{
+    font-family: 'Times New Roman';
+    font-style: italic;
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+.gambar{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+b{
+    color: red;
+}
