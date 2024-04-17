@@ -9,8 +9,8 @@ $result=mysqli_query($koneksi, $query);
 $cek=mysqli_num_rows($result);
 
 if ($cek) {
-    echo "Anda berhasil login. Silahkan menuju "; ?>
-    <a href="homeAdmin.html">Halaman HOME</a>
+    echo "Anda berhasil. menuju "; ?>
+    <a href="homeGuest.html">Halaman HOME</a>
 <?php
 } else {
     echo "Anda gagal login. Silahkan ";?>
