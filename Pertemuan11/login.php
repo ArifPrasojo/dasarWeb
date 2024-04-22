@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="Arif Prasojo">
     <meta name="generator" content="Hugo 0.118.2">
-    <title>Aplikasi Kantor Siapa</title>
+    <title>Aplikasi Kantor</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/sign-in/">
 
