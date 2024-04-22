@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Albani Rajata Malik">
+    <meta name="author" content="Arif Prasojo">
     <meta name="generator" content="Hugo 0.118.2">
     <title>Aplikasi Kantor Siapa</title>
 
@@ -21,7 +21,7 @@
     
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-    <link rel="icon" href="assets/img/favicons/favicon.ico">
+    <link rel="icon" href="assets/img/favicons/favicon.icon">
 
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
@@ -166,7 +166,7 @@
     <img class="mb-4" src="assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Lakukan Log In</h1>
     <?php if (isset($_SESSION['_flashdata'])) {
-      foreach ($_SESSION['_flashdata'] as $key => $val) {
+      foreach  ($_SESSION['_flashdata'] as $key => $val) {
         echo get_flashdata($key);
       }
     }
