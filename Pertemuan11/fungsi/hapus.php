@@ -24,7 +24,7 @@ if (!empty($_SESSION['username'])) {
             if (mysqli_query($koneksi, $query2)) {
                 pesan('success', "Anggota Telah Terhapus.");
             } else {
-                pesan('danger', "Data Login Tidak Terhapus Karena: " . mysqli_error($koneksi));
+                pesan('danger', "Data Login Tidak Terhapus Karena.: " . mysqli_error($koneksi));
             }
         } else {
             pesan('danger', "Anggota Tidak Terhapus Karena: " . mysqli_error($koneksi));

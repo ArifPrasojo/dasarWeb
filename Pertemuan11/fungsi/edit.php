@@ -59,7 +59,7 @@ if (!empty($_SESSION['username'])) {
             } else {
                 $query_user = "UPDATE user SET username = '$username' WHERE id = '$user_id'";
                 if (mysqli_query($koneksi, $query_user)) {
-                    pesan('success', "Anggota Telah Diubah.");
+                    pesan('success', "Anggota Telah Diubah");
                 } else {
                     pesan('warning', "Data Anggota Berhasil Diubah, Tetapi Username Gagal Diubah Karena: " . mysqli_error($koneksi));
                 }
