@@ -1,6 +1,6 @@
 <?php
 // Mengedit data jabatan yang sudah ada dengan menampilkan formulir yang diisi dengan data jabatan yang akan diedit
-require_once 'Crud.php';
+require_once 'crud.php';
 
 $crud = new Crud();
 $id = $_GET['id'];

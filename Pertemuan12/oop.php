@@ -7,6 +7,7 @@ class Car
         echo "Engine started!";
     }
 }
+
 $car1 = new Car();
 $car1->brand = "Toyota";
 
