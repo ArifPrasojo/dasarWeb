@@ -24,6 +24,7 @@
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
+  
 <!-- Site wrapper -->
 <div class="wrapper">
   <!-- Navbar -->
@@ -69,8 +70,128 @@
             </button>
           </div>
         </div>
+
         <div class="card-body">
-          Start creating your amazing application!
+        <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+        <div class="row">
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-info">
+              <div class="inner">
+                <h3>150</h3>
+
+                <p>New Orders</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-bag"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-success">
+              <div class="inner">
+                <h3>53<sup style="font-size: 20px">%</sup></h3>
+
+                <p>Bounce Rate</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+              <div class="inner">
+                <h3>44</h3>
+
+                <p>User Registrations</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-person-add"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+              <div class="inner">
+                <h3>65</h3>
+
+                <p>Unique Visitors</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-pie-graph"></i>
+              </div>
+              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+        </div>
+        
+        <div class="col-md-4">
+                    <p class="text-center" >
+                      <strong>Goal Responder</strong>
+                    </p>
+
+                    <div class="progress-group">
+                      Mahasiswa
+                      <span class="float-right"><b>160</b>/200</span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-success" style="width: 80%"></div>
+                      </div>
+                    </div>
+
+                    <div class="progress-group">
+                      Dosen
+                      <span class="float-right"><b>310</b>/400</span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-sucess" style="width: 75%"></div>
+                      </div>
+                    </div>
+
+                    <!-- /.progress-group -->
+                    <div class="progress-group">
+                      <span class="progress-text">Tenaga Pendidik</span>
+                      <span class="float-right"><b>480</b>/800</span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-success" style="width: 60%"></div>
+                      </div>
+                    </div>
+
+                    <!-- /.progress-group -->
+                    <div class="progress-group">
+                      Alumni
+                      <span class="float-right"><b>250</b>/500</span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-warning" style="width: 50%"></div>
+                      </div>
+                    </div>
+
+                    <div class="progress-group">
+                      Orang Tua
+                      <span class="float-right"><b>250</b>/500</span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-warning" style="width: 50%"></div>
+                      </div>
+                    </div>
+
+                    <div class="progress-group">
+                      Industri 
+                      <span class="float-right"><b>250</b>/500</span>
+                      <div class="progress progress-sm">
+                        <div class="progress-bar bg-warning" style="width: 50%"></div>
+                      </div>
+                    </div>
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
