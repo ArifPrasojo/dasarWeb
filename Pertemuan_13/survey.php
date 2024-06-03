@@ -84,7 +84,6 @@
             <thead>
               <tr>
                 <th>ID</th>
-                <th>User ID</th>
                 <th>Jenis Survey</th>
                 <th>Kode Survey</th>
                 <th>Nama Survey</th>

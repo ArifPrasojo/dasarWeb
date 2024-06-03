@@ -75,6 +75,53 @@
               </p>
             </a>
           </li>
+          <class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="nav-icon fas fa-copy"></i>
+                <p>
+                  Responden
+                  <i class="fas fa-angle-left right"></i>
+                  <span class="badge badge-info right">6</span>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+              <li class="nav-item">
+              <a href="t_responden_dosen.php" class="nav-link <?php echo ($menu == 't_responden_dosen')? 'active' : '' ?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Dosen</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="t_responden_mahasiswa.php" class="nav-link <?php echo ($menu == 't_responden_mahasiswa')? 'active' : '' ?>">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Mahasiswa</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../layout/boxed.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>TenagaPendidik</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../layout/fixed-sidebar.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Orang Tua</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../layout/fixed-sidebar-custom.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Alumni</small></p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="../layout/fixed-topnav.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>industri</p>
+                  </a>
+                </li>
+            </li>
           </ul>
         </nav>
         <!-- /.sidebar-menu -->

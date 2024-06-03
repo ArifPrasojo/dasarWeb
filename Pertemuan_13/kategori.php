@@ -77,6 +77,10 @@
                 echo '<div class="alert alert-success">
                       '.$message.'
                       <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
+            } elseif($status == 'gagal'){
+                echo '<div class="alert alert-danger">
+                      '.$message.'
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div>';
             }
           ?>  
 
@@ -91,7 +95,7 @@
             </thead>
             <tbody>
               <?php 
-                $kategori = new kategori();
+                $kategori = new Kategori();
                 $list = $kategori->getData();
 
                 $i = 1;

@@ -2,7 +2,7 @@
 include_once('model/kategori_model.php');
 
 // Instantiate the kategori class
-$kategori = new kategori();
+$kategori = new Kategori();
 
 $act = isset($_GET['act']) ? $_GET['act'] : '';
 
@@ -50,10 +50,5 @@ if ($act == 'hapus') {
         header('Location: kategori.php?status=gagal&message=ID kategori tidak ditemukan');
     }
     exit();
-}
-
-// Close the database connection if applicable
-if (isset($db)) {
-    $db->close();
 }
 ?>

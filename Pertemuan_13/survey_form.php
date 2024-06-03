@@ -101,7 +101,6 @@
                 while($row = $list->fetch_assoc()){
                   echo '<tr>
                       <td>' . $i . '</td>
-                      <td>'.$row['user_id'].'</td>
                       <td>'.$row['survey_jenis'].'</td>
                       <td>'.$row['survey_kode'].'</td>
                       <td>'.$row['survey_nama'].'</td>
@@ -134,10 +133,6 @@
         </div>
         <div class="card-body">
           <form action="survey_action.php?act=simpan" method="post" id="form-tambah">
-            <div class="form-group">
-              <label for="user_id">User ID</label>
-              <input type="text" name="user_id" id="user_id" class="form-control" required>
-            </div>
             <div class="form-group">
               <label for="survey_jenis">Jenis Survey</label>
               <select name="survey_jenis" id="survey_jenis" class="form-control" required>

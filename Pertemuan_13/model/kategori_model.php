@@ -4,7 +4,7 @@ class Kategori {
     protected $table = 'm_kategori';
 
     public function __construct(){
-        include_once('koneksi.php');
+        include_once('model/koneksi.php');
         $this->db = $db;
         $this->db->set_charset('utf8');
     }
