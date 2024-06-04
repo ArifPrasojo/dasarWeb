@@ -116,10 +116,6 @@
 
             <form action="data_user_action.php?act=edit&id=<?php echo $id?>" method="post" id="form-tambah">
               <div class="form-group">
-                <label for="user_id">Kode Pengguna</label>
-                <input type="text" name="user_id" id="user_id" class="form-control" value="<?php echo $data['user_id']?>">
-              </div>
-              <div class="form-group">
                 <label for="username">Nama Pengguna</label>
                 <input type="text" name="username" id="username" class="form-control" value="<?php echo $data['username']?>">
               </div>
