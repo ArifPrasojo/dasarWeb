@@ -16,7 +16,7 @@ if ($act == 'simpan') {
         'survey_tanggal' => isset($_POST['survey_tanggal']) ? $_POST['survey_tanggal'] : ''
     ];
 
-    if (!empty($data['user_id']) && !empty($data['survey_jenis']) && !empty($data['survey_kode']) && !empty($data['survey_nama']) && !empty($data['survey_tanggal'])) {
+    if (!empty($data['user_id']) && !empty($data['survey_jenis']) && !empty($data['survey_kode']) && !empty($data['survey_nama']) && !empty($data['survey_deskripsi'])&& !empty($data['survey_tanggal'])) {
         $survey->insertData($data);
         header('Location: survey.php?status=sukses&message=Data berhasil disimpan');
     } else {
@@ -38,7 +38,7 @@ if ($act == 'edit') {
             'survey_tanggal' => isset($_POST['survey_tanggal']) ? $_POST['survey_tanggal'] : ''
         ];
 
-        if (!empty($data['user_id']) && !empty($data['survey_jenis']) && !empty($data['survey_kode']) && !empty($data['survey_nama']) && !empty($data['survey_tanggal'])) {
+        if (!empty($data['user_id']) && !empty($data['survey_jenis']) && !empty($data['survey_kode']) && !empty($data['survey_nama']) &&!empty($data['survey_deskripsi']) && !empty($data['survey_tanggal'])) {
             $survey->updateData($id, $data);
             header('Location: survey.php?status=sukses&message=Data berhasil diubah');
         } else {
