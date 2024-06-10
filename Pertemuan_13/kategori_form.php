@@ -78,12 +78,8 @@ if (empty($_SESSION['username'])) {
               <form action="kategori_action.php?act=simpan" method="post" id="form-tambah">
                 <div class="form-group">
                   <label for="kategori_nama">Kategori</label>
-                  <select required name="kategori_nama" id="kategori_nama" class="form-control">
-                    <option value="">Pilih Kategori</option>
-                    <option value="Biodata">Biodata</option>
-                    <option value="Soal Survey">Soal Survey</option>
-                    <!-- Tambahkan opsi-opsi lain sesuai kebutuhan -->
-                  </select>
+                  <input required name="kategori_nama" id="kategori_nama" class="form-control">
+                  </>
                 </div>
                 <div class="form-group">
                   <button type="submit" name="simpan" class="btn btn-primary">Simpan</button>

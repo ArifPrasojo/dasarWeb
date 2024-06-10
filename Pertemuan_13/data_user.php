@@ -86,7 +86,6 @@
                 <th>Kode Pengguna</th>
                 <th>Nama Pengguna</th>
                 <th>Nama</th>
-                <th>Kata Sandi</th>
                 <th>Aksi</th>
               </tr>
             </thead>
@@ -101,7 +100,6 @@
                       <td>'.$row['user_id'].'</td>
                       <td>'.$row['username'].'</td>
                       <td>'.$row['nama'].'</td>
-                      <td>'.$row['password'].'</td>
                       <td>
                         <a title="Edit Data" href="data_user_form.php?act=edit&id='.$row['user_id'].'" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
                         <a onclick="return confirm(\'Apakah anda yakin menghapus data ini?\')" title="Hapus Data" href="data_user_action.php?act=hapus&id='.$row['user_id'].'" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>

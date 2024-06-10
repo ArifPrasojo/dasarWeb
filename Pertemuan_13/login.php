@@ -49,13 +49,13 @@
         </div>
           <!-- /.col -->
           <div class="col-12">
-            <button type="submit" class="btn btn-primary btn-block">Masuk ADMIN</button>
+            <button type="submit" class="btn btn-primary btn-block">Login</button>
           </div>
           <p></p>
-          <p style="text-align: center;">Atau</p>
+          <p style="text-align: center;">ATAU</p>
           <p></p>
           <div>
-          <a button="submit" href="indexuser.php" class="btn bg-gradient-blue btn-block">In To Survey</a>
+          <a button="submit" href="loginresponden.php" class="btn bg-gradient-blue btn-block">Survey</a>
           </div>
           <!-- /.col -->
         </div>

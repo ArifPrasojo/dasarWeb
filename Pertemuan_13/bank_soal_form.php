@@ -208,7 +208,7 @@ if (empty($_SESSION['username'])) {
           },
           soal_nama: {
             required: true,
-            minlength: 5,
+            minlength: 3,
             maxlength: 255
           }
         },

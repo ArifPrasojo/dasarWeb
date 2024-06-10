@@ -83,11 +83,7 @@ if (empty($_SESSION['username'])) {
                 </div>
                 <div class="form-group">
                   <label for="survey_jenis">Jenis Survey</label>
-                  <select name="survey_jenis" id="survey_jenis" class="form-control" required>
-                    <option value="">Pilih Jenis Survey</option>
-                    <option value="Fasilitas">Fasilitas</option>
-                    <option value="Pendidikan">Pendidikan</option>
-                  </select>
+                  <input name="survey_jenis" id="survey_jenis" class="form-control" required>
                 </div>
                 <div class="form-group">
                   <label for="survey_kode">Survey Code</label>
