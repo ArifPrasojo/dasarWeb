@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Blank Page</title>
+  <title>Survey Kepuasan Pelanggan Polinema</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -14,7 +14,7 @@
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
-<div class="wrapper">
+<div class="wrapper" style="padding: 1%;">
 
   <!-- Content Wrapper. Contains page content -->
     <!-- Content Header (Page header) -->
@@ -34,18 +34,51 @@
       <!-- Default box -->
       <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Survey</h3>
+          <h3 class="card-title">Survey Dosen</h3>
 
           <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+              <i class="fas fa-minus"></i>
+            </button>
           </div>
         </div>
         <div class="card-body">
-          Start creating your amazing application!
+          <form action="submit_survey_dosen.php" method="post">
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="survey_id">Survey ID</label>
+                <input type="number" class="form-control" id="survey_id" name="survey_id" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="responden_tanggal">Tanggal</label>
+                <input type="datetime-local" class="form-control" id="responden_tanggal" name="responden_tanggal" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="responden_nip">NIP</label>
+                <input type="text" class="form-control" id="responden_nip" name="responden_nip" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="responden_nama">Nama</label>
+                <input type="text" class="form-control" id="responden_nama" name="responden_nama" required>
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-md-6">
+                <label for="responden_unit">Unit</label>
+                <input type="text" class="form-control" id="responden_unit" name="responden_unit" required>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
-          Footer
         </div>
         <!-- /.card-footer-->
       </div>
@@ -54,6 +87,7 @@
     </section>
     <!-- /.content -->
   </div>
+  <!-- /.content-wrapper -->
 </div>
 <!-- ./wrapper -->
 
